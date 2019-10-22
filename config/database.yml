@@ -52,3 +52,7 @@ production:
   database: New_pictgram_production
   username: New_pictgram
   password: <%= ENV['NEW_PICTGRAM_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
