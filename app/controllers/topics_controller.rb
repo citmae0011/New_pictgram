@@ -4,6 +4,7 @@ class TopicsController < ApplicationController
     @comment = Comment.new
     @comment.user_id = current_user.id
     
+   
   end
   
   def new
